@@ -1,0 +1,121 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0 auto;
+    text-align: center;
+    width: 720px;
+    font-family: 'Roboto', sans-serif;
+    
+    
+}
+
+img {
+    width: 100px;
+}
+.hero{
+    
+    color: #F1FAEE;
+    width: 720px;
+    height: 350px;
+    background-image: url("images/header.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center
+    
+    
+    
+}
+#hero-title{
+    background-color: #1D3557;
+    padding: 4px 12px;
+    border-radius: 10px;
+    text-shadow: 0px 0px 1px white;
+    
+}
+#hero-text{
+    width: 450px;
+    background-color: #457B9D;
+    padding: 5px 30px;
+    border-radius: 10px;
+     text-shadow: 0px 0px 2px white;
+    
+}
+.main{
+    width: 720px;
+    margin: 0 auto;
+    padding: 40px 0;
+    background-color: #F1FAEE;
+    
+}
+.main h3{
+    margin-bottom:50px;
+}
+.place_wraper{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.place{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.place img{
+    border-radius: 50%;
+    width: 200px;
+}
+.place h4{
+    font-size: 16px;
+    
+}
+
+.place p{
+    width: 200px;
+    text-align: center;
+    
+}
+.guide{
+    padding: 50px 0;
+    background-color:white;
+    
+    
+    
+    
+}
+.card{
+    border-radius: 20px;
+    border-bottom: 7px solid #1D3557;
+    width: 400px;
+    background-color: #A8DADC;
+    padding: 25px 10px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between
+}
+
+.card-img{
+    width: 200px;
+}
+.card-text{
+    width: 200px;
+}
+.card-text h3{
+    font-weight: 700;
+    
+    
+}
+.card-text p{
+    font-style: italic;
+}
